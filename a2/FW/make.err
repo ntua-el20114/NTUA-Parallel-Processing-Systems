@@ -1,0 +1,76 @@
+fw_sr.c: In function 'main':
+fw_sr.c:44:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+  #pragma omp parallel
+ ^
+fw_sr.c:45:0: warning: ignoring #pragma omp single [-Wunknown-pragmas]
+  #pragma omp single
+ ^
+fw_sr.c: In function 'FW_SR':
+fw_sr.c:86:0: warning: ignoring #pragma omp task [-Wunknown-pragmas]
+   #pragma omp task shared(A, B, C) firstprivate(arow,acol,brow,bcol,crow,ccol,myN)
+ ^
+fw_sr.c:89:0: warning: ignoring #pragma omp task [-Wunknown-pragmas]
+   #pragma omp task shared(A, B, C) firstprivate(arow,acol,brow,bcol,crow,ccol,myN)
+ ^
+fw_sr.c:92:0: warning: ignoring #pragma omp taskwait [-Wunknown-pragmas]
+   #pragma omp taskwait
+ ^
+fw_sr.c:98:0: warning: ignoring #pragma omp task [-Wunknown-pragmas]
+   #pragma omp task shared(A, B, C) firstprivate(arow,acol,brow,bcol,crow,ccol,myN)
+ ^
+fw_sr.c:101:0: warning: ignoring #pragma omp task [-Wunknown-pragmas]
+   #pragma omp task shared(A, B, C) firstprivate(arow,acol,brow,bcol,crow,ccol,myN)
+ ^
+fw_sr.c:104:0: warning: ignoring #pragma omp taskwait [-Wunknown-pragmas]
+   #pragma omp taskwait
+ ^
+fw_tiled.c: In function 'main':
+fw_tiled.c:41:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+  #pragma omp parallel
+ ^
+fw_tiled.c:42:0: warning: ignoring #pragma omp single [-Wunknown-pragmas]
+  #pragma omp single
+ ^
+fw_tiled.c:45:0: warning: ignoring #pragma omp taskgroup [-Wunknown-pragmas]
+   #pragma omp taskgroup
+ ^
+fw_tiled.c:48:0: warning: ignoring #pragma omp task [-Wunknown-pragmas]
+    #pragma omp task shared(A)
+ ^
+fw_tiled.c:50:0: warning: ignoring #pragma omp taskwait [-Wunknown-pragmas]
+    #pragma omp taskwait
+ ^
+fw_tiled.c:53:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+    #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:57:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+    #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:61:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+    #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:65:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+    #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:68:0: warning: ignoring #pragma omp barrier [-Wunknown-pragmas]
+    #pragma omp barrier
+ ^
+fw_tiled.c:72:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+     #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:77:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+     #pragma omp parallel for shared(A,k,B))
+ ^
+fw_tiled.c:78:5: error: expected ')' before 'for'
+     for(j=k+B; j<N; j+=B)
+     ^
+fw_tiled.c:82:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+     #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:87:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+     #pragma omp parallel for shared(A,k,B)
+ ^
+fw_tiled.c:90:3: error: expected expression before '}' token
+   }
+   ^
+make: *** [fw_tiled] Error 1

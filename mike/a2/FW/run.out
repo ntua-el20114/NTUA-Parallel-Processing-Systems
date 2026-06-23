@@ -1,0 +1,48 @@
+
+======SIZE=1024======
+1 threads:
+FW_SR,1024,64,0.7165
+2 threads:
+FW_SR,1024,64,0.3728
+4 threads:
+FW_SR,1024,64,0.3180
+8 threads:
+FW_SR,1024,64,0.3090
+16 threads:
+FW_SR,1024,64,0.4657
+32 threads:
+FW_SR,1024,64,0.4881
+64 threads:
+FW_SR,1024,64,0.5124
+
+======SIZE=2048======
+1 threads:
+FW_SR,2048,64,5.2208
+2 threads:
+FW_SR,2048,64,2.7010
+4 threads:
+FW_SR,2048,64,2.2957
+8 threads:
+FW_SR,2048,64,1.7660
+16 threads:
+FW_SR,2048,64,2.6056
+32 threads:
+FW_SR,2048,64,2.7138
+64 threads:
+FW_SR,2048,64,2.9149
+
+======SIZE=4096======
+1 threads:
+FW_SR,4096,64,43.3051
+2 threads:
+FW_SR,4096,64,22.3027
+4 threads:
+FW_SR,4096,64,17.6302
+8 threads:
+FW_SR,4096,64,11.3719
+16 threads:
+FW_SR,4096,64,15.6982
+32 threads:
+FW_SR,4096,64,15.7846
+64 threads:
+FW_SR,4096,64,17.2074

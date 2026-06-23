@@ -1,0 +1,24 @@
+stamos.c: In function 'main':
+stamos.c:116:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+         for (int j = 1; j <= local[1]; ++j) u_previous[1][j] = u_current[1][j];
+         ^
+stamos.c:116:9: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+stamos.c:120:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+         for (int j = 1; j <= local[1]; ++j) u_previous[local[0]][j] = u_current[local[0]][j];
+         ^
+stamos.c:124:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+         for (int i = 1; i <= local[0]; ++i) u_previous[i][1] = u_current[i][1];
+         ^
+stamos.c:128:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+         for (int i = 1; i <= local[0]; ++i) u_previous[i][local[1]] = u_current[i][local[1]];
+         ^
+stamos.c:164:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+         for (int i = i_min; i <= i_max; ++i) {
+         ^
+stamos.c:165:13: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+             for (int j = j_min; j <= j_max; ++j) {
+             ^
+stamos.c:22:12: warning: variable 'omega' set but not used [-Wunused-but-set-variable]
+     double omega;                   // relaxation factor
+            ^
+make: *** [jacobi_mpi] Error 1

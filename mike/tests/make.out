@@ -1,0 +1,1 @@
+gcc -fopenmp -Wall -Wextra -Wno-unused -O3 active_cpu.o -o active_cpu 

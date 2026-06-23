@@ -1,0 +1,2 @@
+mpicc -Wall -Wextra -Wno-unused -O3 -c main.c -o main.o
+Makefile:19: recipe for target 'main.o' failed

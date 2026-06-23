@@ -1,0 +1,2 @@
+mpicc -O3 -lm -Wall  -DTEST_CONV stamos.c utils.c -o jacobi_mpi
+Makefile:10: recipe for target 'jacobi_mpi' failed

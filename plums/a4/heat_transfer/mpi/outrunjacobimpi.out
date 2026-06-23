@@ -1,0 +1,7 @@
+Jacobi X 512 Y 512 Px 8 Py 8 Iter 236001 ComputationTime 0.000000 TotalTime 0.000000 midpoint 0.000000
+[clone1:27557] *** An error occurred in MPI_Gatherv
+[clone1:27557] *** reported by process [139858433998849,0]
+[clone1:27557] *** on communicator MPI_COMMUNICATOR 3
+[clone1:27557] *** MPI_ERR_ARG: invalid argument of some other kind
+[clone1:27557] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[clone1:27557] ***    and potentially your MPI job)

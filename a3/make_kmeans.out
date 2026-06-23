@@ -1,0 +1,1 @@
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_transpose.cu -o ObjectDir/cuda_kmeans_transpose.o

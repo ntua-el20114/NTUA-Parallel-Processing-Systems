@@ -1,0 +1,14 @@
+1 threads:
+FW_SR,1024,256,0.7999
+2 threads:
+FW_SR,1024,256,0.5475
+4 threads:
+FW_SR,1024,256,0.5321
+8 threads:
+FW_SR,1024,256,0.5336
+16 threads:
+FW_SR,1024,256,0.5867
+32 threads:
+FW_SR,1024,256,0.6499
+64 threads:
+FW_SR,1024,256,0.6625

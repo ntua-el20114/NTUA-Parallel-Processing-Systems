@@ -1,0 +1,11 @@
+1 threads:
+FW_SR,1024,1024,2.0441
+2 threads:
+FW_SR,1024,1024,2.0310
+4 threads:
+FW_SR,1024,1024,2.0417
+8 threads:
+FW_SR,1024,1024,2.0442
+16 threads:
+32 threads:
+64 threads:

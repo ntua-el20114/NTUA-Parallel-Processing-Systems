@@ -1,0 +1,13 @@
+main.c: In function 'main':
+main.c:150:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+         for (int i = 0; i < size; i++) {
+         ^
+main.c:150:9: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+main.c:152:53: error: 'remainder' undeclared (first use in this function)
+             recvcounts[i] = (numObjs / size) + (i < remainder ? 1 : 0);
+                                                     ^
+main.c:152:53: note: each undeclared identifier is reported only once for each function it appears in
+main.c:172:5: error: expected ';' before 'if'
+     if (_debug && rank == 0)
+     ^
+make: *** [main.o] Error 1

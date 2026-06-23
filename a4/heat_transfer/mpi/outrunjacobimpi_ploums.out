@@ -1,0 +1,3 @@
+======SIZE=512===PROCS=64===P_SIZE=8======
+Jacobi X 512 Y 512 Px 8 Py 8 Iter 236001 ComputationTime 4.048977 TotalTime 58.816069 midpoint 2.774119
+Total Convergence Computation Time: 1.242896

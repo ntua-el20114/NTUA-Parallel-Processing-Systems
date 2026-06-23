@@ -1,0 +1,16 @@
+cuda_kmeans_transpose.cu(39): error: expected a ")"
+     for (i=0; i<numCoords; i++{
+                               ^
+
+cuda_kmeans_transpose.cu(44): warning #12-D: parsing restarts here after previous syntax error
+  }
+  ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+cuda_kmeans_transpose.cu(44): error: expected a statement
+  }
+  ^
+
+2 errors detected in the compilation of "cuda_kmeans_transpose.cu".
+make: *** [Makefile:61: ObjectDir/cuda_kmeans_transpose.o] Error 2

@@ -1,0 +1,4 @@
+omp_reduction_kmeans.c: In function 'kmeans':
+omp_reduction_kmeans.c:63:5: warning: implicit declaration of function 'omp_get_max_threads' [-Wimplicit-function-declaration]
+     nthreads = omp_get_max_threads();
+     ^

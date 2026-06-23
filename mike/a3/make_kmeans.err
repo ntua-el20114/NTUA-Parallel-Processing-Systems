@@ -1,0 +1,6 @@
+main_sec.c: In function 'void usage(char*)':
+main_sec.c:22:9: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         "       -h                 : print this help information\n";
+         ^
+make: /usr/local/cuda-12.1/bin/nvcc: Command not found
+make: *** [ObjectDir/cuda_kmeans_naive.o] Error 127

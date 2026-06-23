@@ -1,0 +1,19 @@
+jacobi_mpi.c: In function 'main':
+jacobi_mpi.c:18:41: warning: unused variable 'tccf' [-Wunused-variable]
+     struct timeval tts,ttf,tcs,tcf,tccs,tccf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                         ^
+jacobi_mpi.c:18:36: warning: unused variable 'tccs' [-Wunused-variable]
+     struct timeval tts,ttf,tcs,tcf,tccs,tccf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                    ^
+jacobi_mpi.c:16:12: warning: variable 'omega' set but not used [-Wunused-but-set-variable]
+     double omega;    //relaxation factor - useless for Jacobi
+            ^
+jacobi_mpi.c:14:28: warning: unused variable 'converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+                            ^
+jacobi_mpi.c:14:9: warning: unused variable 'global_converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+         ^
+jacobi_mpi.c:126:2: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  MPI_Scatterv(
+  ^

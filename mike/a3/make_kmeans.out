@@ -1,0 +1,7 @@
+g++ -O3 -Ihelper_functions  -c seq_kmeans.c -o ObjectDir/seq_kmeans.o
+g++ -O3 -Ihelper_functions  -c main_sec.c -o ObjectDir/main_sec.o
+g++ -O3 -Ihelper_functions  -c helper_functions/file_io.c -o ObjectDir/file_io.o
+g++ -O3 -Ihelper_functions  -c helper_functions/util.c -o ObjectDir/util.o
+g++ -O3 -Ihelper_functions  ObjectDir/seq_kmeans.o ObjectDir/main_sec.o ObjectDir/file_io.o ObjectDir/util.o -o kmeans_seq 
+/usr/local/cuda-12.1/bin/nvcc -O3 -Ihelper_functions  --ptxas-options=-v -arch=sm_60  -c cuda_kmeans_naive.cu -o ObjectDir/cuda_kmeans_naive.o
+Makefile:64: recipe for target 'ObjectDir/cuda_kmeans_naive.o' failed
