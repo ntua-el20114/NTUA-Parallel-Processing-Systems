@@ -1,8 +1,9 @@
 # Parallel Processing Systems - NTUA
 
 **Authors:**
-* Mike
-* Kostis
+* Kostis Gizis (03119013)
+* Filippos Ploumis (03120049)
+* Michalis Raftopoulos (03120114)
 
 This repository contains the laboratory assignments and coursework for the **Parallel Processing Systems** course (9th Semester) offered at the National Technical University of Athens (NTUA). 
 
