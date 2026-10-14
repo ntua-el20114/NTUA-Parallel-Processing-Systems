@@ -1,7 +1,7 @@
 # Parallel Processing Systems - NTUA
 
 **Authors:**
-* Kostis Gizis (03119013)
+* Kostis Gkizis (03119013)
 * Filippos Ploumis (03120049)
 * Michalis Raftopoulos (03120114)
 
